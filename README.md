@@ -5,6 +5,8 @@
   * Requirements
     - composer
     - curl module for php
+  * Git
+    - https://github.com/Amice/atlassian.git
   * Run: composer install
 
 # Settings

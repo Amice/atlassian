@@ -1,0 +1,74 @@
+/vendor/
+/results/
+/settings.local.php
+/image_test/
+# MAC
+.DS_Store
+._*
+
+# KDE
+.directory
+.directory.lock.*.test
+
+# KDevelop
+.kdev4/*
+*.kdev4
+cifs*
+.kdev*
+
+# KATE
+# The below line restricts to add two important files to the Drupal 8 system module's
+# HtaccessTest: access_test.module~ and access_test.php~. Comment it out if you
+# are working with Drupal 8 repos/sites.
+# *~
+.*.kate-swp
+.kateconfig
+.kateproject
+.kateproject.d/*
+
+# Lokalize POT and PO editor
+*.lokalize
+
+# NetBeans
+nbproject/*
+
+# Eclipse
+.settings/*
+.buildpath
+.project
+
+# VIM
+.*.swp
+
+# PhpStorm
+.idea/
+.idea/*
+
+# Drush
+drushrc.php
+
+# SASS/SCSS
+.sass-cache
+
+# Exuberant Ctags
+.tags*
+.ctags*
+
+# APC
+apc.php
+
+# phpinfo
+info.php
+
+# Google analytics
+google*.html
+
+# FrontPage
+_vti_cnf/
+_vti_cnf/*
+_vti_pvt/
+_vti_pvt/*
+_vti_script/
+_vti_script/*
+_vti_txt/
+_vti_txt/*

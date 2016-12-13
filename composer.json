@@ -1,0 +1,11 @@
+{
+  "name": "atlassian/rest_client",
+  "description": "Atlassian REST Client.",
+  "license": "proprietary",
+  "type": "library",
+  "autoload": {
+      "psr-4" : {
+          "Atlassian\\" : "src/"
+      }
+  }
+}
