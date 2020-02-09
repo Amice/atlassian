@@ -113,7 +113,7 @@ class Page {
   protected static function buildQuery() {
     self::initQuery();
     if (empty(self::getConfluence())) {
-      $confluence = new Confluence();
+      $confluence = new ConfluenceClient();
       self::setConfluence($confluence);
     }
   }
